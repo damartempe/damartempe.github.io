@@ -30,3 +30,37 @@ z-index: -1;
 }
 
 }
+
+/* laptop */
+@media (max-width: 992px){
+    html{
+
+        font-size: 75%;
+    }
+    .simply-countdown > .simply-section{
+        padding: 70px;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px){
+    html{
+        font-size: 65px;
+    }
+    
+    .simply-countdown > .simply-section{
+        padding: 60px;
+        margin: 5px;
+    }
+}
+
+/* handphone */
+@media (max-width: 576px){
+    html{
+        font-size: 60px;
+    } 
+    .simply-countdown > .simply-section{
+        padding: 45px;
+        margin: 3px;
+    }
+}
