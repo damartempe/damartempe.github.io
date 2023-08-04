@@ -54,7 +54,7 @@ z-index: -1;
 }
 
 /* handphone */
-@media (max-width: 576px){
+@media (max-width: 600px){
     html{
         font-size: 55%;
     } 
