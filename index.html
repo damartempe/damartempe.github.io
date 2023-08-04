@@ -10,7 +10,7 @@
     <!-- cutdown -->
     <link rel="stylesheet" href="cutdown/simplyCountdown.theme.default.css"/>
     <script src="cutdown/simplyCountdown.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Style.css">
 
 
 </head>
@@ -66,19 +66,20 @@
   <script>
     simplyCountdown('.simply-countdown', {
 
-            year: 2023, // required
+           year: 2023, // required
             month: 12, // required
             day: 28, // required
             hours: 0, // Default is 0 [0-23] integer
             minutes: 0, // Default is 0 [0-59] integer
             seconds: 0, // Default is 0 [0-59] integer
             words: { //words displayed into the countdown
-                days: { singular: 'day', plural: 'days' },
-                hours: { singular: 'hour', plural: 'hours' },
-                minutes: { singular: 'minute', plural: 'minutes' },
-                seconds: { singular: 'second', plural: 'seconds' }
+                days: { singular: 'hari', plural: 'days' },
+                hours: { singular: 'jam', plural: 'hours' },
+                minutes: { singular: 'menit', plural: 'minutes' },
+                seconds: { singular: 'detik', plural: 'seconds' }
+
             },
-            plural: true, //use plurals
+            plural: false, //use plurals
             inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
             inlineClass: 'simply-countdown-inline', //inline css span class in case of inline = true
             // in case of inline set to false
