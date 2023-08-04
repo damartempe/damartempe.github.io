@@ -48,7 +48,7 @@ z-index: -1;
     }
     
     .simply-countdown>.simply-section{
-        padding: 60px;
+        padding: 45px;
         margin: 5px;
     }
 }
@@ -59,7 +59,7 @@ z-index: -1;
         font-size: 55%;
     } 
     .simply-countdown>.simply-section{
-        padding: 55px;
+        padding: 45px;
         margin: 3px;
     }
 }
